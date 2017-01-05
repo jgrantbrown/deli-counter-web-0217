@@ -3,6 +3,6 @@ def line(katz_deli)
   if katz_deli.length<=0
     puts "The line is currently empty."
   else
-    katz_deli.each.with_index(1) {|inline, index| puts "The line is currently: #{index}. #{inline}"}
+    katz_deli.map.with_index(1) {|inline, index| "The line is currently: #{index}. #{inline}"}
   end
 end
