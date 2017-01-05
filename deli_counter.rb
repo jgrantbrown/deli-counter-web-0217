@@ -8,7 +8,10 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli,newperson)
-  katz_deli.push(newperson).each.with_index(1) {|inline, index| puts "welcome, #{inline}. You are number #{index} in line."}
-  
-
+if katz_deli.length<1
+  katz_deli.push(newperson)  puts "Welcome, #{newperson}. You are number 1. in line."}
+end
+else
+katz_deli.push(newperson).each.with_index(1) {|inline, index| puts "Welcome, #{inline}. You are number #{index} in line."}
+end
 end
