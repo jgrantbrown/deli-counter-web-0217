@@ -13,5 +13,8 @@ if katz_deli.empty?
    puts "Welcome, #{katz_deli.first}. You are number 1 in line."
 else
 katz_deli.push(newperson)
-puts "Welcome #{katz_deli.last}. You are number #{katz_deli.count} in line."}
+puts "Welcome #{katz_deli.last}. You are number in line."
 end
+end
+
+def now_serving()
