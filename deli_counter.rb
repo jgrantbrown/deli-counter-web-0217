@@ -3,7 +3,7 @@ def line(katz_deli)
   if katz_deli.empty?
     puts "The line is currently empty."
 else
-    puts "The line is currently:  #{katz_deli.map.with_index()}"
+    puts "The line is currently:  #{katz_deli.map.with_index(0)}"
   end
 end
 
